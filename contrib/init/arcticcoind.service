@@ -1,0 +1,22 @@
+[Unit]
+Description=Triad's distributed currency daemon
+After=network.target
+
+[Service]
+User=triadcore
+Group=triadcore
+
+Type=forking
+PIDFile=/var/lib/triadd/triadd.pid
+ExecStart=/usr/bin/triadd -daemon -pid=/var/lib/triadd/triadd.pid \
+-conf=/etc/triadcore/triad.conf -datadir=/var/lib/triadd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

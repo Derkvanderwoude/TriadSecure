@@ -1,0 +1,6 @@
+usr/local/bin/triad-qt usr/bin
+share/pixmaps/triad32.xpm usr/share/pixmaps
+share/pixmaps/triad16.xpm usr/share/pixmaps
+share/pixmaps/triad128.png usr/share/pixmaps
+debian/triad-qt.desktop usr/share/applications
+debian/triad-qt.protocol usr/share/kde4/services/

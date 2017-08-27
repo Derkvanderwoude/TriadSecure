@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Triad
+Comment=Triad P2P Cryptocurrency
+Comment[fr]=Triad, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Triad, eşten eşe kriptografik sanal para birimi
+Exec=triad-qt %u
+Terminal=false
+Type=Application
+Icon=triad128
+MimeType=x-scheme-handler/triad;
+Categories=Office;Finance;
