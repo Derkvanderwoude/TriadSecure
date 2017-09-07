@@ -1,7 +1,7 @@
 Triad Core staging tree 0.12.1
 ===============================
 
-https://www.triad.org
+https://www.triadsecure.com
 
 
 What is Triad?
