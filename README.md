@@ -14,7 +14,7 @@ are carried out collectively by the network. Triad Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Triad Core software, see https://www.triad.org/get-triad/.
+the Triad Core software, see https://www.triadsecure.com/get-triad/.
 
 
 License
